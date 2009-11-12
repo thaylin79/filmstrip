@@ -33,7 +33,10 @@ package {
 			super();
 			addEventListener(Event.ADDED_TO_STAGE, setup);
 		}
-		
+		private function emptyFunction():void
+		{
+			//do nothing
+		}
 		public function setup(event:Event):void {
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.align = StageAlign.TOP_LEFT;
