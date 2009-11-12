@@ -33,7 +33,7 @@ package {
 			super();
 			addEventListener(Event.ADDED_TO_STAGE, setup);
 		}
-		private function emptyFunction():void
+		private function blankFunction():void
 		{
 			//do nothing
 		}
